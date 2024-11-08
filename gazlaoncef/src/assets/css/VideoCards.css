@@ -1,0 +1,82 @@
+.video-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; 
+}
+
+.video-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 300px; 
+    text-align: center;
+    border: 2px solid black;
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+.video-title {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.video-channel {
+    margin: 5px 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    display: flex; 
+    align-items: center; 
+}
+
+.video-channel svg {
+    margin-right: 5px; 
+}
+
+@media (max-width: 768px) {
+    .video-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        justify-content: center; 
+        align-items: center; 
+        min-height: 100vh; 
+    }
+
+    .video-card {
+        width: 90%;
+        max-width: 300px; 
+        margin: 10px 0; 
+    }
+
+    .video-title {
+        font-size: 1.1em; 
+    }
+
+    .video-channel {
+        font-size: 0.8em; 
+    }
+}
+
+@media (max-width: 480px) {
+    .video-title {
+        font-size: 1em; 
+    }
+
+    .video-channel {
+        font-size: 0.7em; 
+    }
+}

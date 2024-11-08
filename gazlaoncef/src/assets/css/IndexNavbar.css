@@ -1,0 +1,169 @@
+/* .navbar-dark-custom {
+    background-color: rgb(0, 0, 0) !important;
+    color: white;
+  } */
+  
+/* .navbar-colored {
+    background-color: #000000 !important;
+    color: #ffffff;
+} */
+
+.navbar-dark-custom {
+    background-color: #000000 !important;
+    color: #ffffff;
+}
+
+.navbar-dark-custom .nav-link,
+.navbar-dark-custom .navbar-brand {
+    color: #ffffff !important;
+}
+
+
+/* .navbar-colored {
+    background-color: #000000 !important;
+    color: #ffffff;
+}
+
+.navbar-toggler-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin: 4px 0;
+    background-color: #ffffff;
+} */
+
+
+/* .navbar-transparent {
+    background-color: transparent !important;
+}
+
+.navbar-colored {
+    background-color: #000000 !important;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-toggler-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin: 4px 0;
+    background-color: #ffffff;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.btn-round {
+    border-radius: 30px;
+    margin-left: 15px;
+    color: white !important;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+} */
+
+/* Navbar collapse stilleri */
+/* .navbar-collapse {
+    z-index: 1040;
+    display: block !important;
+    visibility: visible !important;
+    height: auto !important;
+    opacity: 1 !important;
+}
+
+.navbar-collapse.show {
+    display: block !important;
+} */
+
+/* Mobil uyumluluk için medya sorguları */
+
+/* @media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .navbar-toggler-bar {
+        width: 18px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .btn-round {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .navbar-collapse.custom-navbar {
+        z-index: 1040 !important;
+        display: block !important;
+        visibility: visible !important;
+        height: auto !important;
+        opacity: 1 !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 14px;
+    }
+
+    .navbar-toggler-bar {
+        width: 16px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .btn-round {
+        font-size: 12px;
+        padding: 5px 10px;
+
+    }
+
+    .navbar-collapse.custom-navbar {
+        z-index: 40 !important;
+        display: block !important;
+        visibility: visible !important;
+        height: auto !important;
+        opacity: 1 !important;
+        position: relative !important;
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .navbar-collapse {
+        z-index: 1040;
+        display: none;
+
+        visibility: hidden;
+        height: auto;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+    }
+
+    .navbar-collapse.show {
+        display: block !important;
+
+        visibility: visible !important;
+        height: auto !important;
+        opacity: 1 !important;
+    }
+
+} */

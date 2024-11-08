@@ -1,0 +1,38 @@
+.centered-container {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.comment-form {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.comment-input {
+    border-radius: 10px;
+}
+
+.comment-warning {
+    color: gray;
+    font-style: italic;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 16px;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border: 1px solid red;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.submit-button {
+    border-radius: 10px;
+    margin-top: 30px;
+}

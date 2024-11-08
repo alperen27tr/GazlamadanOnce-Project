@@ -1,0 +1,39 @@
+.filter-menu-container {
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    gap: 10px; 
+    overflow-x: auto; 
+}
+
+.btn-round {
+    border-radius: 20px;
+    padding: 10px 20px; 
+}
+
+
+.btn-round.btn.btn-danger[data-filterkey="altin_elbiseli_adam"] {
+    background-color: gold !important; 
+    color: white !important; 
+}
+
+.special-button {
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    .button-group {
+        flex-direction: column; 
+        align-items: center; 
+        overflow-x: hidden; 
+    }
+
+    .btn-round {
+        width: 90%; 
+        margin-bottom: 10px; 
+    }
+}

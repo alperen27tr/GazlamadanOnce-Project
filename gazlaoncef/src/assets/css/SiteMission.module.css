@@ -1,0 +1,72 @@
+.site-mission-container {
+    text-align: center;
+    padding: 60px; 
+    background-image: linear-gradient(to right, #696969, #000000); 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    border: 4px solid #000; 
+}
+
+.mission-content {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px; 
+}
+
+.mission-item {
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: space-between; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.mission-image {
+    width: 100%; 
+    max-width: 500px;
+    height: auto; 
+    border-radius: 20px;
+}
+
+.mission-text {
+    max-width: 100%; 
+    text-align: left; 
+    line-height: 1.5; 
+    color: #fff; 
+    font-size: 18px; 
+    padding: 20px;
+    margin-top: 40px;
+    text-indent: 60px;
+}
+
+.mission-item-text {
+    flex: 1; 
+    padding: 10px; 
+}
+
+.animated {
+    opacity: 0; 
+    transition: all 0.8s ease-out; 
+}
+
+.animated.visible {
+    opacity: 1; 
+}
+
+.from-left {
+    transform: translateX(-50px); 
+}
+
+.from-left.visible {
+    transform: translateX(0); 
+}
+
+.from-right {
+    transform: translateX(50px); 
+}
+
+.from-right.visible {
+    transform: translateX(0); 
+}

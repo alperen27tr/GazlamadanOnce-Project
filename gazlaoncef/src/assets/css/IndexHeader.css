@@ -1,0 +1,43 @@
+.page-header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+  }
+  
+  .title-brand {
+    margin-bottom: 20px;
+  }
+  
+  .presentation-title {
+    font-size: 5.5rem; 
+  }
+  
+  .presentation-subtitle {
+    font-size: 1.5rem; 
+  }
+  
+  @media (max-width: 768px) {
+    .presentation-title {
+      font-size: 3.5rem; 
+    }
+  
+    .presentation-subtitle {
+      font-size: 1.2rem; 
+    }
+  
+    .title-brand img {
+      width: 80%; 
+    }
+  
+    .fog-low {
+      display: none; 
+    }
+  
+    .moving-clouds {
+      background-size: 150%; 
+    }
+  }
+  
